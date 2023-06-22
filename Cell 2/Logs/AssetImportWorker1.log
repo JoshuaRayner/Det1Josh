@@ -1,0 +1,244 @@
+Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.0.1 (Build 22A400)
+Darwin version:          22.1.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/joshthagoat/Documents/GitHub/Det1Josh/Cell 2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64571
+Successfully changed project path to: /Users/joshthagoat/Documents/GitHub/Det1Josh/Cell 2
+/Users/joshthagoat/Documents/GitHub/Det1Josh/Cell 2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 116.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/joshthagoat/Documents/GitHub/Det1Josh/Cell 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001296 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 94.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.475 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1476ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1028ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (2ms)
+			SetupTypeCache (115ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (744ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (462ms)
+				ProcessInitializeOnLoadMethodAttributes (164ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004497 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/joshthagoat/Documents/GitHub/Det1Josh/Cell 2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/joshthagoat/Documents/GitHub/Det1Josh/Cell 2/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.261 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2263ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (37ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1785ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1148ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (897ms)
+				ProcessInitializeOnLoadMethodAttributes (106ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.35 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3380 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (84.9 KB). Loaded Objects now: 3837.
+Memory consumption went from 108.7 MB to 108.6 MB.
+Total: 4.258250 ms (FindLiveObjects: 0.448959 ms CreateObjectMapping: 0.086709 ms MarkObjects: 3.331333 ms  DeleteObjects: 0.389250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 67378.545171 seconds.
+  path: Assets/Avatares
+  artifactKey: Guid(d4178081b233f4d518c192f72486894c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatares using Guid(d4178081b233f4d518c192f72486894c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33329290470f6de89a22e2930f19bf8') in 0.011757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Avatares/perfect cell/Perfect Cell/fbx.fbx
+  artifactKey: Guid(e3f6a2bc9e962d5499b2bbcc7b127560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatares/perfect cell/Perfect Cell/fbx.fbx using Guid(e3f6a2bc9e962d5499b2bbcc7b127560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f0a037ffba171798e592009b4e0074') in 1.431997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.701739 seconds.
+  path: Assets/Avatares/perfect cell/Perfect Cell/Texturas/bust.mat
+  artifactKey: Guid(301e388f2acf33047a7ae02c80bdd973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatares/perfect cell/Perfect Cell/Texturas/bust.mat using Guid(301e388f2acf33047a7ae02c80bdd973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d92be6ac7c8a00115ff52d946eb95c') in 0.259767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Avatares/perfect cell/Perfect Cell/Texturas/New Material.mat
+  artifactKey: Guid(95c9b569e97d3d74a810d2943f050106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatares/perfect cell/Perfect Cell/Texturas/New Material.mat using Guid(95c9b569e97d3d74a810d2943f050106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f207c3b229068d12caede1918f74431') in 0.012826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Avatares/perfect cell/Perfect Cell/Texturas/legs.png
+  artifactKey: Guid(45d4751e8774abd44a206a2704e9c744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatares/perfect cell/Perfect Cell/Texturas/legs.png using Guid(45d4751e8774abd44a206a2704e9c744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96d4c7b2df1d2cec3dad9d31f7fd397') in 0.327811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Avatares/perfect cell/Perfect Cell/Texturas/hand.png
+  artifactKey: Guid(7f1645b42edc3d047a8b062fbe2350f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatares/perfect cell/Perfect Cell/Texturas/hand.png using Guid(7f1645b42edc3d047a8b062fbe2350f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ae31365213d7c790610782817c3e571') in 0.011373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Avatares/perfect cell/Perfect Cell/Texturas/feet.png
+  artifactKey: Guid(4ba29b90554defa46a8afea9fa7c99a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatares/perfect cell/Perfect Cell/Texturas/feet.png using Guid(4ba29b90554defa46a8afea9fa7c99a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79879cea7b91a4b83efe20e7afb9709') in 0.012300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Avatares/perfect cell/Perfect Cell/Texturas/eye.png
+  artifactKey: Guid(4f32c3b20bc693a4195df0c20209484c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatares/perfect cell/Perfect Cell/Texturas/eye.png using Guid(4f32c3b20bc693a4195df0c20209484c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9370afbc36227e8432f757c27f975279') in 0.010503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Avatares/perfect cell/Perfect Cell/Texturas/bust.png
+  artifactKey: Guid(f8b680086a5217b499647d1a33a8ddc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatares/perfect cell/Perfect Cell/Texturas/bust.png using Guid(f8b680086a5217b499647d1a33a8ddc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc82ed3afef28de7e4b30fbcf62cb161') in 0.008291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Avatares/perfect cell/Perfect Cell/Texturas/New Material 3.mat
+  artifactKey: Guid(4a216c3aceaccb94486a18e6e7287fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatares/perfect cell/Perfect Cell/Texturas/New Material 3.mat using Guid(4a216c3aceaccb94486a18e6e7287fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0d5cd00543146bac590e4dde77cf48') in 0.011507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Avatares/perfect cell/Perfect Cell/Texturas/New Material 2.mat
+  artifactKey: Guid(35fd9f970f855c548b590d25ebc5f745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatares/perfect cell/Perfect Cell/Texturas/New Material 2.mat using Guid(35fd9f970f855c548b590d25ebc5f745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c749a76b190649fa46295ec6c01498') in 0.015685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Avatares/perfect cell/Perfect Cell/Texturas/New Material 4.mat
+  artifactKey: Guid(f48972f23113f1e43b5540b805fd1859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatares/perfect cell/Perfect Cell/Texturas/New Material 4.mat using Guid(f48972f23113f1e43b5540b805fd1859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d8e7978e84232eeb26d3fa26f03c5e') in 0.029745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Avatares/perfect cell/Perfect Cell/Texturas/wings.png
+  artifactKey: Guid(46ca27d44b2ea4742b90d20f4eeffa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Avatares/perfect cell/Perfect Cell/Texturas/wings.png using Guid(46ca27d44b2ea4742b90d20f4eeffa9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7be7d5e1b2adb3f88d9cd2614ad261e1') in 0.010824 seconds 
